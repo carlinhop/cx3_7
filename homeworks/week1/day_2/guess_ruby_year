@@ -1,0 +1,12 @@
+year = 1995
+
+puts "In which year was ruby released?"
+
+guess = gets.chomp.to_i
+
+if (guess == year)
+  puts "Correct!"
+else
+  puts "Sorry try again!"
+
+end
